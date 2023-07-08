@@ -1,0 +1,28 @@
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAAY1BMVEX///8AAAD29vb6+vrn5+elpaXu7u7h4eHq6uo4ODjy8vLd3d2ampocHBy2traurq51dXVUVFReXl5KSkoqKipBQUEhISGOjo68vLxubm7Hx8fPz88NDQ1nZ2dPT08XFxeEhIRPmNdzAAAEiklEQVR4nO1b15ajMAxlKCH0DgkQwv9/5Q7BBRIWy8aanT2H+xosLrKqrRjGiRMnTpw4ceLEiX8L0+7iMH1kRVUVQ34fkza4Wj/KoAvT4usDdT7G/s8QuMT3z/dzeE2HzcBvs+cehRfKJkCkYIaVkMGMR4tE4dIAGbxQ3RAo+BsUoiq7pxPywvv81dNOI3l7izc0N/fqm/Ovlnmxg+Re1W+bYuukcM3WDMJu2xXdd89x9HFwVpsd7n9fm674unoomPlCaN6ZwgXXcLF3fayDQ7CQmAEDke9EfNF4nMONSyskYqEV8nWDWHn74LIiSb3aD25GxwyDc8jl3S3WY56cg5Kv2SzVPtUjBguSpWpGYhJqVQkJcwr172AyqovS+paZwxHrZoZRqKwOesrhAIVvdFROKr/WKsna+zEO3yzUjXukejhevbJ4J2ucdKF3NNpNoNZZyi2zSWXwvGrgwOPNKLWKlgW6SkWaiGUqceqdjSYOhk8jjoSFEc8YdHHgnwX3EGpImqqiF0i9VUIN3fc0b8aE61NOFY4kaRioemFWYRJFaCkOFyhlVEHiVKFXEUxuBZJb4SjCMDx47AnmRyPtHKgqIFm5UU15QhCvi8Seb811Ya+1jSQg35cIHwzgOpOGTTKz8EGS8DBOF5hpCkPF3H+XGLvBwqDoC905pDxQONBKbxQ81qL5xgvzJw6C/Qj1588lSH8q6EFymSwjD2IUgoq3xnPQCR1kt32ESmIJtwZYZoBrl4ZfAJyvxQxVE2aby3afiUGGcwBzL1HtXgYQ69XT8mxhrne93ReQMKG7qOJoAFkBncT8gmh3v0PcWEX3u/9vSGBvR72bm37KMHdJEBfFKWkmQFyUBCu8Cz1IsMIO2xYkbP+KBIaeyiNAKidFjcypjhRIUSNofzJcH4WVd7+i0CXuESKRgO22i1rpApsf3DYQ2uiS9l3/Oc0EaENMwtV+TFMEkV0JHyRndz2Gf4APSeiTCP4BPy4y3JnEl34S5DgV5HkeWGlysMjZJOj6gtQUsENPCVC5oCkoE0kVtVSZQA/Y1a5TBVKhlfylBEZXGVwiSa+jpHX2xeTSpYdXKqV226S31RLpgN6Kjro40M2QKtnoFaKuslvlStK40sEcPSmEjlFIFtB0D7X4KTX0UrZ+pnfEh4YnZrBBDOnGzqJzdIcrvQOjC3yI42ATwgYXxkOrH0fsgkmp1L6Fzf1V6qd5bLCnVh0h5nOgiiMMFptIrNXL95GxCFWUGbCR3kMlK9eFwqxV0jMOx1LhYpjQkVNGwKdZ90+HAOBTfFKTvzbfSR3xrltM/+ZAAzWbki9KdRx2+Mux/SoWi3RX09W6StXVoPDX2O3xsOPVXw0KfZ11MKxoFGN72SJiukleLh/slTz7r1gr41t8Njrd0ujdW5i+j7EXui9vrO1J/qjKsq0Z+okCxp8K7DHafNk2qhvSCaDb9OK3vzBgUZhg3XIxgyfqn0xe8J1HucNgSIOf+f+R3YZF+fm3m9q7JwHeVckGrOCWNGnu1X0flcV9dOIO7yLzxIkTJ05Q/AHykS40YoXIzQAAAABJRU5ErkJggg==');
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('https://png.pngtree.com/element_our/sm/20180515/sm_5afb099b30a2a.jpg');
+    
+}
